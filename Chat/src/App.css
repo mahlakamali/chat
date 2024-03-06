@@ -1,0 +1,109 @@
+body {
+    background: thistle;
+    padding: 30px 200px;
+}
+
+
+.chats {
+    padding: 10px 40px
+}
+
+.chat-avatar {
+    float: right
+}
+
+
+.chat-body {
+    display: block;
+    margin: 1px 3px;
+    overflow: hidden
+}
+
+.chat-content {
+    position: relative;
+    display: block;
+    float: right;
+    padding: 5px 8px;
+    margin: 2px 15px 2px;
+    color: #fff;
+    background-color: #9d558c;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.chat-time {
+    display: block;
+    margin-top: 8px;
+    color: white
+}
+
+.chat-left .chat-avatar {
+    float: left
+}
+
+.chat-left .chat-body {
+    margin-right: 0;
+    margin-left: 30px
+}
+
+.chat-left .chat-content {
+    float: left;
+    margin: 0 0 10px 20px;
+    color: black;
+    background-color: rgb(152, 126, 152)
+}
+
+.chat-left .chat-content+.chat-content:before {
+    border-color: transparent
+}
+
+.chat-left .chat-time {
+    color: black
+}
+
+.panel-footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-footer input {
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.panel-footer input:hover {
+    transition: all 0.5s;
+    box-shadow: rgb(186, 31, 186) 1px 0.5px 8px 0px;
+}
+
+.panel-footer button {
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 4px;
+}
+
+.avatar img {
+    width: 100%;
+    height: auto;
+    border: 0 none;
+    border-radius: 100px;
+}
+
+.chat-avatar .avatar {
+    width: 30px;
+}
+
+.avatar {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    white-space: nowrap;
+    border-radius: 1000px;
+    vertical-align: bottom;
+}
